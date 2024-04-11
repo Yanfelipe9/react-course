@@ -1,0 +1,16 @@
+npm init -y
+
+criar index.html
+
+npm install esbuild
+"scripts": {
+  "start": "esbuild --bundle src/main.jsx --outfile=main.js --servedir=./ --watch",
+  "build": "esbuild --bundle src/main.jsx --outfile=main.js"
+},
+
+npm i react react-dom
+
+no main.jsx ->
+import ReactDOM from "react-dom/client"
+import React from "react"
+
